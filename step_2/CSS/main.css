@@ -1,0 +1,18 @@
+body {
+	color: #E5DD42;
+	font-family: arial;
+	font-size: 48px;
+}
+
+p {
+	width: 600px;
+}
+
+#Smiles {
+	text-align: right;
+	padding-left: 100px;
+	padding-right: -50px;
+	top: 20px;
+	left: 550px;
+	position: fixed;
+}

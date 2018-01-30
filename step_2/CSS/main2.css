@@ -1,0 +1,14 @@
+body {
+	color: #600F0F;
+}
+.column {
+    float: left;
+    width: 60%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}

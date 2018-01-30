@@ -1,0 +1,23 @@
+p {
+	margin: 600px;
+	width: 300px;
+}
+
+#topleft {
+	width: 400px;
+	margin: 200px;
+	position: absolute;
+}
+
+
+#topleft {
+	width: 400px;
+	margin: 200px;
+	position: absolute;
+}
+
+#bottomleft {
+	width: 400px;
+	margin: 900px;
+	position: absolute;
+}

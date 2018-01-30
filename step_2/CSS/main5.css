@@ -1,0 +1,13 @@
+body {
+	font-family: "comic sans ms";
+}
+p {
+	margin: 100px;
+	width: 300px;
+}
+
+#up {
+	transform: rotate(180deg);
+	margin: 400px;
+	width: 100px;
+}
