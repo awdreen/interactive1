@@ -1,0 +1,40 @@
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  background-color: #7AD2F3;
+  padding: 5px;
+}
+.grid-item {
+  background-color: #F3C5DC;
+  border: 3px #7AD2F3;
+  padding: 40px;
+  font-size: 30px;
+  text-align: center;
+
+
+}
+
+.topright {
+	float: right;
+	border: 1px solid blue;
+	padding: 5px;
+}
+.grid-container2 {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  background-color: #7AD2F3;
+  padding: 5px;
+  float: left;
+}
+.grid-item2 {
+  background-color: #F3C5DC;
+  border: 3px #7AD2F3;
+  padding: 40px;
+  font-size: 30px;
+  text-align: center;
+
+
+}
+body {
+  font-family: 'Libre Barcode 39 Text', cursive;
+}
