@@ -8,6 +8,7 @@ body {
 	background-color: #FFDCF5;
 	font-family: 'Nosifer', cursive;
 	font-size: 48pt;
+	color: white;
 }
 * {
     box-sizing: border-box;
@@ -17,12 +18,23 @@ body {
     margin: 0;
 }
 
-/* Create three equal columns that floats next to each other */
+/* Create three unequal columns that floats next to each other */
 .column {
     float: left;
-    width: 30%;
     padding: 10px;
     height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.left, .right {
+  width: 25%;
+}
+
+.middle {
+  width: 50%;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  background-color:#FFDCF5;
+  letter-spacing: 3pt
 }
 
 /* Clear floats after the columns */
@@ -30,4 +42,20 @@ body {
     content: "";
     display: table;
     clear: both;
+}
+.top {
+	font-size: 25pt;
+	letter-spacing: 5pt
+}
+.hearts {
+	position: absolute;
+	color: white;
+	font-size: 20pt;
+	padding: 10pt;
+}
+.hearts2 {
+	position: absolute;
+	color: white;
+	font-size: 20pt;
+
 }
