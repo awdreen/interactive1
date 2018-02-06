@@ -1,0 +1,156 @@
+body {
+	color: #010C3D;
+}
+.one {
+	border: 1px solid blue;
+	margin: 400pt;
+	padding: 30pt;
+	font-size: 5pt;
+	float: right;
+}
+
+.isolated {
+	color: black;
+	position: absolute;
+	left: 1000px;
+	font-size: 48pt;
+	font-family: arial;
+
+}
+.two {
+
+	margin: 40pt;
+	padding: 100pt;
+	font-size: 5pt;
+}
+
+.three {
+
+	width: 50pt;
+	font-size: 3pt;
+	float: right;
+	padding: 300pt;
+}
+
+.four {
+	font-size: 8pt;
+	float: right;
+}
+
+.five {
+	font-size: 5pt;
+	padding: 40px;
+}
+
+.six {
+	font-size: 7pt;
+	height: 50px;
+	padding: 10px;
+}
+
+body {
+	color: blue;
+	font size: 7pt;
+}
+
+.seven {
+
+	height: 40px;
+	padding: 40px;
+	font-size: 6pt;
+	margin-left: 50px;
+}
+
+.eight {
+
+	height: 60px;
+	padding: 30px;
+	font-size: 12px;
+	margin: 300px;
+
+}
+
+.nine {
+
+	height: 500px;
+	padding: 800px;
+	font-size: 5px;
+}
+
+.ten {
+	height: 200px;
+	padding: 100px;
+	font-size: 9px;
+}
+
+.eleven {
+	height: 200px;
+	padding: 100px;
+	font-size: 9px;
+	margin: 600px;
+}
+
+.twelve {
+	height: 200px;
+	padding: 100px;
+	font-size: 9px;
+	margin: 600px;
+}
+
+.thirteen {
+	height: 2000px;
+	padding: 100px;
+	font-size: 9px;
+	margin: 300px;
+
+}
+
+.fourteen {
+	padding: 100px;
+	font-size: 7px;
+	margin: 20px;
+}
+
+.fifteen {
+	padding: 50px;
+	font-size: 9px;
+	margin: 500px;
+}
+
+.sixteen {
+	padding: 90px;
+	font-size: 5px;
+	margin: 20px;
+}
+
+.seventeen {	
+	padding: 1000px;
+	font-size: 8px;
+	margin: 10px;
+}
+
+
+.eightteen {
+	padding: 50px;
+	font-size: 9px;
+	margin: 500px;
+}
+
+.nineteen {
+	padding: 50px;
+	font-size: 20px;
+	margin: 500px;
+}
+
+.twenty {
+	padding: 50px;
+	font-size: 30px;
+	margin: 600px;
+}
+
+.twentyone {
+	font-size: 30pt;
+}
+.x {
+	font-size: 10pt;
+}

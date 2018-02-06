@@ -1,0 +1,282 @@
+body {
+	color: #010C3D;
+}
+.one {
+	margin: 400pt;
+	padding: 30pt;
+	font-size: 5pt;
+	float: right;
+	line-height: 25pt;
+	-webkit-animation: fadeinout 30s infinite;
+	-moz-animation: fadeinout 30s infinite;
+	-o-animation: fadeinout 30s infinite;
+	animation: fadeinout 30s infinite;
+}
+
+.isolated {
+	color: black;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	font-size: 48pt;
+	font-family: arial;
+	-o-transition: .5s;
+	-ms-transition: .5s;
+	-moz-transition: .5s;
+	-webkit-transition: .5s;
+	transition: .5s;
+
+}
+
+.isolated:hover {
+	color: white;
+}
+.two {
+
+	margin: 40pt;
+	padding: 100pt;
+	font-size: 8pt;
+	-webkit-animation: fadeinout 5s infinite;
+	-moz-animation: fadeinout 5s infinite;
+	-o-animation: fadeinout 5s infinite;
+	animation: fadeinout 5s infinite;
+}
+
+@keyframes fadeinout {
+	0% {opacity: 1;}
+	50% {opacity: 0;}
+	100% {opacity: 1;}
+}
+@-o-keyframes fadeinout {
+	0% {opacity: 1;}
+	50% {opacity: 0;}
+	100% {opacity: 1;}
+}
+@-moz-keyframes fadeinout {
+	0% {opacity: 1;}
+	50% {opacity: 0;}
+	100% {opacity: 1;}
+}
+@-webkit-keyframes fadeinout {
+	0% {opacity: 1;}
+	50% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+
+.three {
+
+	width: 50pt;
+	font-size: 5pt;
+	float: right;
+	padding: 300pt;
+	-webkit-animation: fadeinout 20s infinite;
+	-moz-animation: fadeinout 20s infinite;
+	-o-animation: fadeinout 7s infinite;
+	animation: fadeinout 7s infinite;
+}
+
+
+.four {
+	font-size: 8pt;
+	float: right;
+	-webkit-animation: fadeinout 30s infinite;
+	-moz-animation: fadeinout 30s infinite;
+	-o-animation: fadeinout 25s infinite;
+	animation: fadeinout 25s infinite;
+}
+
+.five {
+	font-size: 5pt;
+	padding: 40px;
+	-webkit-animation: fadeinout 30s infinite;
+	-moz-animation: fadeinout 30s infinite;
+	-o-animation: fadeinout 30s infinite;
+	animation: fadeinout 30s infinite;
+}
+
+.six {
+	font-size: 7pt;
+	height: 50px;
+	padding: 10px;
+	-webkit-animation: fadeinout 40s infinite;
+	-moz-animation: fadeinout 40s infinite;
+	-o-animation: fadeinout 40s infinite;
+	animation: fadeinout 40s infinite;
+}
+
+body {
+	color: blue;
+	font size: 7pt;
+}
+
+.seven {
+
+	height: 40px;
+	padding: 40px;
+	font-size: 6pt;
+	margin-left: 50px;
+	letter-spacing: 20pt;
+	-webkit-animation: fadeinout 30s infinite;
+	-moz-animation: fadeinout 30s infinite;
+	-o-animation: fadeinout 30s infinite;
+	animation: fadeinout 30s infinite;
+}
+
+.eight {
+
+	height: 60px;
+	padding: 30px;
+	font-size: 12px;
+	margin: 300px;
+	-webkit-animation: fadeinout 8s infinite;
+	-moz-animation: fadeinout 8s infinite;
+	-o-animation: fadeinout 8s infinite;
+	animation: fadeinout 8s infinite;
+
+}
+
+.nine {
+
+	height: 500px;
+	padding: 800px;
+	font-size: 7px;
+	-webkit-animation: fadeinout 20s infinite;
+	-moz-animation: fadeinout 20s infinite;
+	-o-animation: fadeinout 7s infinite;
+	animation: fadeinout 7s infinite;
+}
+
+.ten {
+	height: 200px;
+	padding: 100px;
+	font-size: 9px;
+	-webkit-animation: fadeinout 20s infinite;
+	-moz-animation: fadeinout 20s infinite;
+	-o-animation: fadeinout 7s infinite;
+	animation: fadeinout 7s infinite;
+}
+
+.eleven {
+	height: 200px;
+	padding: 100px;
+	font-size: 9px;
+	margin: 600px;
+	-webkit-animation: fadeinout 30s infinite;
+	-moz-animation: fadeinout 30s infinite;
+	-o-animation: fadeinout 30s infinite;
+	animation: fadeinout 30s infinite;
+}
+
+.twelve {
+	height: 200px;
+	padding: 100px;
+	font-size: 9px;
+	margin: 600px;
+	-webkit-animation: fadeinout 9s infinite;
+	-moz-animation: fadeinout 9s infinite;
+	-o-animation: fadeinout 7s infinite;
+	animation: fadeinout 7s infinite;
+}
+
+.thirteen {
+	height: 2000px;
+	padding: 100px;
+	font-size: 9px;
+	margin: 300px;
+	-webkit-animation: fadeinout 20s infinite;
+	-moz-animation: fadeinout 20s infinite;
+	-o-animation: fadeinout 7s infinite;
+	animation: fadeinout 7s infinite;
+
+}
+
+.fourteen {
+	padding: 100px;
+	font-size: 7px;
+	margin: 20px;
+	-webkit-animation: fadeinout 30s infinite;
+	-moz-animation: fadeinout 30s infinite;
+	-o-animation: fadeinout 30s infinite;
+	animation: fadeinout 30s infinite;
+}
+
+.fifteen {
+	padding: 50px;
+	font-size: 9px;
+	margin: 500px;
+	-webkit-animation: fadeinout 7s infinite;
+	-moz-animation: fadeinout 7s infinite;
+	-o-animation: fadeinout 7s infinite;
+	animation: fadeinout 7s infinite;
+}
+
+.sixteen {
+	padding: 90px;
+	font-size: 5px;
+	margin: 20px;
+	-webkit-animation: fadeinout 20s infinite;
+	-moz-animation: fadeinout 20s infinite;
+	-o-animation: fadeinout 7s infinite;
+	animation: fadeinout 7s infinite;
+}
+
+.seventeen {	
+	padding: 1000px;
+	font-size: 8px;
+	margin: 10px;
+	-webkit-animation: fadeinout 10s infinite;
+	-moz-animation: fadeinout 10s infinite;
+	-o-animation: fadeinout 10s infinite;
+	animation: fadeinout 10s infinite;
+}
+
+
+.eightteen {
+	padding: 50px;
+	font-size: 9px;
+	margin: 500px;
+	-webkit-animation: fadeinout 20s infinite;
+	-moz-animation: fadeinout 20s infinite;
+	-o-animation: fadeinout 20s infinite;
+	animation: fadeinout 20s infinite;
+}
+
+.nineteen {
+	padding: 50px;
+	font-size: 20px;
+	margin: 500px;
+	-webkit-animation: fadeinout 30s infinite;
+	-moz-animation: fadeinout 30s infinite;
+	-o-animation: fadeinout 30s infinite;
+	animation: fadeinout 30s infinite;
+}
+
+.twenty {
+	padding: 50px;
+	font-size: 30px;
+	margin: 600px;
+	-webkit-animation: fadeinout 7s infinite;
+	-moz-animation: fadeinout 7s infinite;
+	-o-animation: fadeinout 7s infinite;
+	animation: fadeinout 7s infinite;
+}
+
+.twentyone {
+	font-size: 30pt;
+}
+.x {
+	font-size: 5pt;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background: orange;
+}
+
+.xx {
+	font-size: 5pt;
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	background: pink;
+}
