@@ -1,0 +1,33 @@
+body {
+	color: blue;
+
+}
+#top {
+	padding-top: 80px;
+	border: 10px solid white;
+	background-color: #FFDCF5;
+	font-family: 'Nosifer', cursive;
+	font-size: 48pt;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
