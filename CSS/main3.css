@@ -58,3 +58,11 @@ body {
 	color: white;
 	font-size: 20pt;
 }
+
+.name {
+	position: fixed;
+	color: #FFDCF5;
+	bottom: 0pt;
+	left: 0pt;
+	font-family: 'Montserrat', sans-serif;
+}
