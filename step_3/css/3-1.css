@@ -270,7 +270,7 @@ body {
 	position: fixed;
 	top: 0px;
 	left: 0px;
-	background: #E6E6FA;
+	background-color: #E6E6FA;
 }
 
 .xx {
@@ -278,5 +278,5 @@ body {
 	position: fixed;
 	bottom: 0px;
 	right: 0px;
-	background: black;
+	background-color: black;
 }
