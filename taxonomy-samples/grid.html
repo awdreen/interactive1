@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Grids</title>
+  <meta charset="utf-8" />
+  <style>
+  
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  #grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .item {
+    ;
+    padding: 50px;
+  }
+
+  .special {
+    background: red;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-start: 3;
+    grid-column-end: 5;
+  }
+
+  .special-2 {
+    background: blue;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+  </style>
+</head>
+
+<body>
+  <!-- this is the containing grid-->
+  <div id="grid">
+
+    <!-- grid items -->
+    <div class="item"><center><img src="img/search11.png"></img></center></div>
+    <div class="item"><center><img src="img/search2.png"></img></center></div>
+    <div class="item"><center><img src="img/search6.png"></img></center></div>
+    <div class="item"><center><img src="img/search12.png"></img></center></div>
+    <div class="item"><center><img src="img/search14.png"></img></center></div>
+    <div class="item"><center><img src="img/search1.png"></img></center></div>
+    <div class="item"><center><img src="img/search16.png"></img></center></div>
+    <div class="item"><center><img src="img/search15.png"></img></center></div>
+    <div class="item"><center><img src="img/search7.png"></img></center></div>
+    <div class="item"><center><img src="img/search4.png"></img></center></div>
+    <div class="item"><center><img src="img/search3.png"></img></center></div>
+    <div class="item"><center><img src="img/search9.png"></img></center></div>
+    <div class="item"><center><img src="img/search10.png"></img></center></div>
+    <div class="item"><center><img src="img/search8.png"></img></center></div>
+    <div class="item"><center><img src="img/search5.png"></img></center></div>
+
+  </div>
+</body>
+</html>
