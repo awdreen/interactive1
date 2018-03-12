@@ -61,7 +61,7 @@
 
     <div class="item6">
       <!--title-->
-     <font color="blue">Studies have shown most individuals aren't real.</font>
+     <font color="blue"><a href="JavaScript:newPopup('https://thumbs.gfycat.com/NaturalUntriedFlatcoatretriever-max-1mb.gif');">Studies have shown most individuals aren't real.</a></font>
       <!--URL-->
      <small>
       <p><font color="green">https://www.westernhealth.com/pdfs/shared/is-reality-really-real/ib-60-17-e-1-pdf/
@@ -70,13 +70,26 @@
       <!--Desc-->
        <font color="grey"> <p> 
        Researcher Dwayne The Rock Johnson has discovered that most people aren't actually real. 85% of humans are actually robots and those individuals are unaware without our special testing that only costs...
+
        </font>
      </small>
+      <button onclick="myFunction()">CLICK ME</button>
     </div>
     <div class="Button">
-    <img src="img/button.gif"></img>
+    <a href="JavaScript:newPopup('http://lh3.ggpht.com/_TkQUof6Z5gM/SxOno-WwULI/AAAAAAAABO4/L-4cxjQR6MU/s800/crap.gif');"><img src="img/button.gif"></img></a>
+   
 </div>
   </div>
-
+<script>
+function myFunction() {
+    var txt;
+    if (confirm("Press a button!")) {
+        txt = "You pressed OK!";
+    } else {
+        txt = "You pressed Cancel!";
+    }
+    document.getElementById("demo").innerHTML = txt;
+}
+</script>
 </body>
 </html>
