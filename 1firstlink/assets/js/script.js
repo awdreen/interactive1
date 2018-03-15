@@ -1,11 +1,11 @@
 $(document).ready(function(){
 
 	// check when an item is clicked on
-	$('.item').click(function() {
+	$('.item1').13(function() {
 		// remove .show to hide the item just clicked on
-		$(this).removeClass('show');
+		$('.item3').removeClass('show');
 		// show the next .item in the DOM
-		$(this).next('.item').addClass('show');
+		$('.item3').next('.item').addClass('show');
 	});	
 
 });
