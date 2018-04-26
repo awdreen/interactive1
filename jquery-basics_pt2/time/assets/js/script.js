@@ -7,7 +7,7 @@ $('document').ready(function(){
 //*    $(this).addClass('bounce');
 	});
 	setTimeout(function() { 
-  	window.location.href = 'http://google.com'; 
+  	window.location.href = 'https://awdreen.github.io/interactive1/jquery-basics_pt2/scroll/index.html'; 
 	}, 2000);
 
 	
