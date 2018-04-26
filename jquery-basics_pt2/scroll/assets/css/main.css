@@ -1,19 +1,14 @@
-* {margin: 0px; padding 0px;}
-
-body {
-	height: 1440px;
+.bounce {
+  animation: bounce-animation .25s;
 }
 
-#scroll-position {
-	position: fixed;
-	top: 20px;
-	left: 20px;
-}
-
-img {
-	position: fixed;
-	top: 100px;
-	left: 100px;
-	width: 500px;
-	height: auto;
-}
+@keyframes bounce-animation {
+  0% {
+    transform: scale(1.0);
+  }
+  50% {
+    transform: scale(.8);
+  }
+  100% {
+    transform: scale(1.0);
+  }

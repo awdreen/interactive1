@@ -1,10 +1,14 @@
-$(document).ready(function(){
-	
-	$(window).scroll(function (event) {
-    	var scroll = $(window).scrollTop();
-    	$('#distance').html(scroll);
-    	$('img').css({ 'transform': 'rotateY('+scroll+'deg)'});
+$('document').ready(function(){
+	$('img').click(function(){
+		$(this).attr('src', 'https://i.imgur.com/Z9idPCT.png');
+    $(this).addClass('bounce');
+   $('img').click(function(){
+		$(this).attr('src', 'https://i.imgur.com/jVMROKx.png');
+    $(this).addClass('bounce');
 	});
-	
+	setTimeout(function() { 
+  	window.location.href = 'http://google.com'; 
+	}, 2000);
 
+	
 });

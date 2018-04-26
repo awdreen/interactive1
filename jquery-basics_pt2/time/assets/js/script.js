@@ -1,17 +1,14 @@
-$(document).ready(function(){
+$('document').ready(function(){
+	$('img').click(function(){
+		$(this).attr('src', 'https://i.imgur.com/Z9idPCT.png');
+    $(this).addClass('bounce');
+   //* $('heart').click(function(){
+//*		$(this).attr('src', 'https://i.imgur.com/jVMROKx.png');
+//*    $(this).addClass('bounce');
+	});
+	setTimeout(function() { 
+  	window.location.href = 'http://google.com'; 
+	}, 2000);
+
 	
-	n = 1;
-
-	setInterval(function(){
-		$('body').append('<img src="http://i.imgur.com/WfROBmY.jpg" />');
-
-		if (n%10 == 0) {
-			$('body').append('<div class="break"></div>');			
-		}
-		
-		n++;
-
-	},1000);
-	
-
 });
