@@ -5,7 +5,7 @@ $('document').ready(function(){
     $(this).addClass('bounce');
 	});
 	setTimeout(function() { 
-  	window.location.href = 'https://awdreen.github.io/interactive1/jquery-basics_pt2/time/index.html'; 
+  	window.location.href = '../time/index.html'; 
 	}, 2000);
 
 		$('a').click(function (e) {
