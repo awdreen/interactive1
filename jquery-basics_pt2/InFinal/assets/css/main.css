@@ -1,5 +1,7 @@
-* {margin: 0px; padding 0px;}
-
+img {
+	display: block;
+	margin: 10px auto 150px ;
+}
 body {
 	position: relative;
 	min-height: 100vh;

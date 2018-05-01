@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	
 	setTimeout(function() { 
-  	window.location.href = ''; 
+  	window.location.href = '../keypress/index.html'; 
 	}, 2000);
 
 });
