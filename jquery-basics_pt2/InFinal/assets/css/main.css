@@ -6,6 +6,16 @@ body {
 	position: relative;
 	min-height: 100vh;
 	min-width: 100vw;
+
+
+}
+#desktop{
+	opacity: 1;
+	color: white;
+}
+
+#tablet, #mobile, #print {
+	opacity: 0;
 }
 
 #position {
@@ -30,12 +40,22 @@ div[class^="page"] {
 
 .break	{ display: none; }
 
+
 @media print {
-	.break	{ display: block; page-break-before: always; }
 	
-	div[class^="page"] { 
-		position: relative; 
-		font-size: 80px;
+	body {
+		background: white;
 	}
+
+	#print{
+		opacity: 1;
+	}
+
+	#desktop, #tablet, #mobile {
+		opacity: 0;
+	}
+}
+#print {
+	font-family: arial;
 
 }
