@@ -24,9 +24,9 @@ $(document).ready(function(){
 		// detect if 'enter' is pressed
 		if(code == 13) {
 			var text = $('h1').text();
-			$('body').append('<div class="break">'+text+'</div>');
-    		$('h1').html(String.fromCharCode(event.which));	
-		var goTo = this.getAttribute("href"); // store anchor href
+			// $('body').append('<div class="break">'+text+'</div>');
+   //  		$('h1').html(String.fromCharCode(event.which));	
+			var goTo = $('a').attr('href'); // store anchor href
 
 	    // do something while timeOut ticks ... 
 
