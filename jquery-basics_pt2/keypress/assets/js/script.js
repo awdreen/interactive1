@@ -28,11 +28,12 @@ $(document).ready(function(){
    //  		$('h1').html(String.fromCharCode(event.which));	
 			var goTo = $('a').attr('href'); // store anchor href
 
-	    // do something while timeOut ticks ... 
+		    // do something while timeOut ticks ... 
 
-	    setTimeout(function(){
-	         window.location = goTo;
-	    },2000);
+		    setTimeout(function(){
+		         window.location = goTo;
+		    },2000);
+		
 		}
 
 		//
